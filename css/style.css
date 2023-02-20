@@ -1,0 +1,118 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+header {
+    font-size: 14px;
+    height: 130px;
+    background-color: rgb(255, 255, 255);
+}
+header .logo {
+    height: 20px;
+    width: 20 px;
+    padding-left: 10px;
+    padding-top: 10px;
+    height: 30px;
+}
+h3{
+    padding-bottom: 5px;
+}
+header .logo,
+header .contacts {
+    display: inline-block;
+}
+header .contacts {
+    vertical-align:20px;
+    margin-left: 80px;  
+    margin-right: auto; 
+}
+.navigation {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(238, 226, 226);
+    text-align: center;
+    font-size: 16px;
+}
+.navigation li {
+    display: inline-block;   
+}
+.navigation a {
+    text-transform: uppercase;
+    color: crimson;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+}
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+}
+.container a:hover {
+    background-color: rgb(196, 155, 235);
+}
+h1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: crimson;
+    text-align: center;
+}
+.homeImage {
+    width: 60%;
+    margin-right:-100px;
+    float:left
+}
+p {
+    margin-bottom: 10px;
+}
+footer {
+    margin-top: 30px;
+    background-color:rgb(45, 45, 45);
+    height: 150px;
+    margin-bottom: 0;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 16px;
+}
+.main .gallary_list img {
+    display: inline-block;
+    width:25%;
+
+}
+h2 {
+    text-align: center;
+    color: crimson;
+    margin-bottom: 30px;
+}
+form{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(211, 185, 175);
+    width: 270px;
+    padding: 10px;
+}
+button {
+    padding: 0;
+    border: none;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;   
+}
+button {
+    background-color: rgb(199, 171, 225);
+    width: 270px;
+    padding: 5px;
+    border-style: double;
+}
+.maps {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+   
+}
